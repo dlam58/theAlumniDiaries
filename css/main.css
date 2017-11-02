@@ -13,7 +13,7 @@ nav ul{
     padding: 0px;
     list-style: none;
     font-weight: bold;
-    float: right;
+    text-align: right;
 }
 footer ul li {
     display: inline;
@@ -22,7 +22,6 @@ footer ul li {
 nav ul li {
     display: inline;
     margin-right: 20px;
-    float: left;
 }
 a {
     text-decoration: none;
