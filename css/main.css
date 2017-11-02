@@ -15,10 +15,14 @@ nav ul{
     font-weight: bold;
     float: right;
 }
-
-nav ul li, footer ul li {
+footer ul li {
     display: inline;
     margin-right: 20px;
+}
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    float: left;
 }
 a {
     text-decoration: none;
