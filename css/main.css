@@ -1,9 +1,7 @@
-* {
-  margin: 0;
-}
 html, body {
     background color: white;
     height:100%;
+    margin: 0;
 }
 
 /* nav styling */
@@ -57,8 +55,10 @@ footer {
 }
 footer ul {
     font-family: 'PT Sans', sans-serif;
-    padding: 0px;
+    padding: 0px 20px;
     list-style: none;
+    text-align: center;
+
 }
 
 footer ul li {
