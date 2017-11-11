@@ -1,28 +1,23 @@
 body {
-    width: 70%;
     background color: white;
 }
-footer ul {
-    font-family:'PT Sans','Sans-Serif';
-    padding: 0px;
-    list-style: none;
-    font-weight: bold;
-}
+
+/* nav styling */
 nav ul{
-    font-family:'PT Sans','Sans-Serif';
+    font-family: 'PT Sans', sans-serif;
     padding: 10px;
     list-style: none;
     font-weight: bold;
     text-align: right;
 }
-footer ul li {
-    display: inline;
-    margin-right: 20px;
-}
+
 nav ul li {
     display: inline;
     margin-right: 20px;
 }
+
+
+/* body element styling */
 a {
     text-decoration: none;
     color: #999;
@@ -32,17 +27,12 @@ a:hover {
 }
 h1 {
     font-size: 3em;
-    font-family:'PT Sans','Sans-Serif';
+    font-family: 'PT Sans', sans-serif;
 }
 p {
     font-size: 1.5em;
     line-height: 1.4em;
     color: #333;
-}
-footer {
-    border-top: 1px solid #d5d5d5;
-    font-size: .8em;
-    width: 100%;
 }
 
 ul.posts { 
@@ -53,17 +43,35 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
-  /* footer styling */
-.page-wrap {
+
+/* footer styling */
+
+footer {
+    border-top: 1px solid #d5d5d5;
+    font-size: .8em;
+    width: 100%;
+}
+footer ul {
+    font-family: 'PT Sans', sans-serif;
+    padding: 0px;
+    list-style: none;
+}
+
+footer ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.container {
   min-height: 100%;
   /* equal to footer height */
   margin-bottom: -60px; 
 }
-.page-wrap:after {
+.container:after {
   content: "";
   display: block;
 }
-.site-footer, .page-wrap:after {
+.site-footer, .container:after {
   height: 60px; 
 }
 .site-footer {
