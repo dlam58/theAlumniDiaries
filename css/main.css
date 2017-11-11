@@ -55,15 +55,14 @@ footer {
 }
 footer ul {
     font-family: 'PT Sans', sans-serif;
-    padding: 0px 20px;
+    padding: 20px 0;
     list-style: none;
     text-align: center;
-
 }
 
 footer ul li {
     display: inline;
-    margin-right: 20px;
+    margin-right: 40px;
 }
 
 .container {
