@@ -1,16 +1,16 @@
 body {
-    margin: 60px auto;
     width: 70%;
+    background color: white;
 }
 footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family:'PT Sans','Sans-Serif';
     padding: 0px;
     list-style: none;
     font-weight: bold;
 }
 nav ul{
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 0px;
+    font-family:'PT Sans','Sans-Serif';
+    padding: 10px;
     list-style: none;
     font-weight: bold;
     text-align: right;
@@ -32,7 +32,7 @@ a:hover {
 }
 h1 {
     font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family:'PT Sans','Sans-Serif';
 }
 p {
     font-size: 1.5em;
@@ -42,6 +42,7 @@ p {
 footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
+    width: 100%;
 }
 
 ul.posts { 
@@ -53,12 +54,6 @@ ul.posts li {
     list-style: none;
 }
   /* footer styling */
-* {
-  margin: 0;
-}
-html, body {
-  height: 100%;
-}
 .page-wrap {
   min-height: 100%;
   /* equal to footer height */
