@@ -7,10 +7,11 @@ html, body {
 /* nav styling */
 nav ul{
     font-family: 'PT Sans', sans-serif;
-    padding: 10px;
+    padding: 75px 100px;
     list-style: none;
     font-weight: bold;
     text-align: right;
+    text-transform: uppercase;
 }
 
 nav ul li {
@@ -67,8 +68,7 @@ footer ul li {
 
 .container {
   min-height: 100%;
-  padding-left: 100px;
-  padding-right: 100px;
+  padding-left: 0px 150px;
   /* equal to footer height */
   margin-bottom: -100px; 
 }
