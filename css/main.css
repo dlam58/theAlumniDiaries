@@ -1,4 +1,7 @@
-body {
+* {
+  margin: 0;
+}
+html, body {
     background color: white;
     height:100%;
 }
@@ -65,7 +68,8 @@ footer ul li {
 
 .container {
   min-height: 100%;
-  padding: 100px;
+  padding-left: 100px;
+  padding-right: 100px;
   /* equal to footer height */
   margin-bottom: -60px; 
 }
