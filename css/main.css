@@ -56,7 +56,7 @@ footer {
 }
 footer ul {
     font-family: 'PT Sans', sans-serif;
-    padding: 20px 0;
+    padding: 40px 0;
     list-style: none;
     text-align: center;
 }
@@ -68,7 +68,7 @@ footer ul li {
 
 .container {
   min-height: 100%;
-  padding-left: 0px 150px;
+  padding: 0px 150px;
   /* equal to footer height */
   margin-bottom: -100px; 
 }
