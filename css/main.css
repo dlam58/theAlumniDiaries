@@ -6,8 +6,8 @@ html, body {
 
 /* nav styling */
 nav ul{
-    font-family: 'PT Sans', sans-serif;
-    padding: 75px 100px;
+    font-family: 'Open Sans', sans-serif;
+    padding: 6em 8em;
     list-style: none;
     font-weight: bold;
     text-align: right;
@@ -16,7 +16,7 @@ nav ul{
 
 nav ul li {
     display: inline;
-    margin-right: 20px;
+    margin-right: 1.25em;
 }
 
 
@@ -28,15 +28,16 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
 h1 {
-    font-size: 3em;
-    font-family: 'PT Sans', sans-serif;
+    font-size: 1.5em;
+    font-family: 'PT Serif', sans-serif;
 }
 p {
-    font-size: 1.5em;
+    font-size: 1em;
     line-height: 1.4em;
     color: #333;
-    font-family: 'PT Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 ul.posts { 
@@ -55,7 +56,7 @@ footer {
     width: 100%;
 }
 footer ul {
-    font-family: 'PT Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     padding: 40px 0;
     list-style: none;
     text-align: center;
@@ -63,21 +64,21 @@ footer ul {
 
 footer ul li {
     display: inline;
-    margin-right: 40px;
+    margin-right: 2.5em;
 }
 
 .container {
   min-height: 100%;
-  padding: 0px 150px;
+  padding: 0 15em;
   /* equal to footer height */
-  margin-bottom: -100px; 
+  margin-bottom: -6em; 
 }
 .container:after {
   content: "";
   display: block;
 }
 .site-footer, .container:after {
-  height: 100px; 
+  height: 6em; 
 }
 .site-footer {
   background: black;
