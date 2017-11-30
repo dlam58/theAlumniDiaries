@@ -7,7 +7,7 @@ html, body {
 /* nav styling */
 nav ul{
     font-family: 'Open Sans', sans-serif;
-    padding: 6em 8em;
+    padding: 6em 8em 3em 8em;
     list-style: none;
     font-weight: bold;
     text-align: right;
@@ -30,9 +30,15 @@ a:hover {
 }
 
 h1 {
-    font-size: 1.5em;
+    font-size: 2em;
     font-family: 'PT Serif', sans-serif;
 }
+
+h2 {
+    font-size: 1.5em;
+    font-family: 'Open Sans', sans-serif;
+}
+
 p {
     font-size: 1em;
     line-height: 1.4em;
@@ -57,7 +63,7 @@ footer {
 }
 footer ul {
     font-family: 'Open Sans', sans-serif;
-    padding: 40px 0;
+    padding: 3em 0;
     list-style: none;
     text-align: center;
 }
